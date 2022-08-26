@@ -1,0 +1,301 @@
+html {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./images/animated\ earth.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+}
+
+/* Login-Signup */
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.auth-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 18vh;
+    width: 30vw;
+    align-items: center;
+    margin-top: 30vh;
+    /* background-image: url('./images/earthhold.jpg'); */
+    background-position: center;
+    background-size: 600px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-left: 30vw;
+}
+
+.projectitle {
+    background-color: rgb(189, 228, 131);
+    padding: 5px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(189, 228, 131);
+    text-decoration: none;
+    height: 60px;
+    width: 90vw;
+    border: 0px solid black;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.auth-form {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.issuelist {
+    background-color: rgb(189, 228, 131);
+}
+
+.issueform {
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/earthhold.jpg');
+    height: 50vh;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+.issue {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('./images/clouds.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    min-height: 60vh;
+    background-size: cover;
+    border-radius: 2px;
+    margin: 5px 5px 5vh 5px;
+    border-bottom: .5vh solid black;
+    overflow-wrap: break-word;
+}
+
+.add-issue {
+    width: 10vw;
+    height: 3vh;
+    border-radius: 5px;
+}
+
+.yourissues {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    background-image: url('./images/earthhold.jpg');
+    overflow-wrap: break-word;
+}
+
+.issue-span {
+    display: inline-block;
+    height: 20vh;
+    width: 38vw;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(151, 151, 173); */
+    /* background: rgba(0, 0, 0, 0.3); */
+    white-space: normal;
+    margin: 1vh 1vh;
+}
+
+.issue-title {
+    text-align: left;
+    padding-left: 2vw;
+    width: 35vw;
+    
+}
+
+.issue-user {
+    width: 10vw;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.issue-descr {
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 195, 206);
+    border: solid grey 1px;
+    border-radius: 2px;
+    margin: 1vw 1vw 1vw 1vw;
+    text-align: left;
+    padding: 1vh 1vw 1vh 1vw;
+    overflow-wrap: break-word;
+    min-height: 20vh;
+}
+
+.issue-comments {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 195, 206);
+    border: solid grey 1px;
+    border-radius: 2px;
+    margin: 1vw 1vw 1vw 1vw;
+    text-align: left;
+    padding: 1vh 1vw 1vh 1vw;
+    overflow-wrap: break-word;
+    min-height: 1vh;
+}
+
+.issue-delete {
+    height: 3vh;
+    width: 6vw;
+    margin-left: 42vw;
+    border-radius: 10px;
+    
+}
+
+.comments-title {
+    margin: 1vw 1vw 1vw 1vw;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.comment-container {
+    text-align: left;
+}
+
+.comment-user {
+    margin-left: 1vw;
+    font-weight: bold;
+}
+
+.new-comment-form {
+    display: flex;
+    width: 42vw;
+    margin: 0vw 1vw 1vw 1vw;
+    background-color: rgb(51, 51, 56);
+    flex-direction: column;
+    border-radius: 2px;
+
+}
+
+.comment-box {
+    max-width: 40vw;
+    min-width: 40vw;
+    min-height: 5vw;
+    margin: .5vw .5vw .0vw .5vw;
+    align-self: baseline;
+    border-radius: 2px;
+}
+
+.submit-btn {
+    height: 3vh;
+    width: 6vw;
+    margin: .5vw .5vw .5vw .5vw;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(153, 202, 79);
+    border: solid 1px rgb(12, 11, 11);
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    opacity: .7;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.createaccount, .haveaccount {
+    background-color: rgb(189, 228, 131);
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: rgb(189, 228, 131);
+    color: rgb(0, 0, 0);
+    border: black solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 6vw;
+}
+
+.logout {
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black 1px;
+    text-decoration: none;
+    background-color: rgb(38, 41, 35);
+    color: #ffffff;
+    font-size: 20px;
+}
+.profile-link, .public-link {
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black 1px;
+    text-decoration: none;
+    background-color: rgb(38, 41, 35);
+    color: #ffffff;
+    font-size: 20px;
+    opacity: .7;
+}
+
+.profile-link:hover, .public-link:hover{
+    opacity: 1;
+}
+
+.username, .password {
+    background-color: rgb(9, 247, 227);
+    color: rgb(0, 0, 0);
+    border: black solid 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profile-main {
+    background-color: rgb(189, 228, 131);
+    height: 70vh;
+    height: 100%;
+    width: 50vw;
+    margin-left: 20vw;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.profile-header {
+    border-bottom: 2px black solid;
+    background-image: url('./images/earthhold.jpg');
+    margin: 10px 0px 10px 0px;
+}
+
+.profile-issue {
+    border-bottom: 2px black solid;
+    background-image: url('./images/earthhold.jpg');
+    margin: 0px 10px 0px 10px;
+    margin-bottom: 5px;
+}
+
+.profile-nav {
+    color: black;
+    font-size: 20px;
+    margin-left: 50vw;
+}
+
