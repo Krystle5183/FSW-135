@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: lightblue;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+}
+
+.auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+}
+
+.auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.profile-wrapper > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-wrapper > h1 {
+    font-size: 2.5em;
+    margin: 24px;
+}
+
+.profile-wrapper > h3 {
+    margin: 16px 0;
+    text-decoration: underline;
+}
+
+.profile-wrapper > form {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    border: 1px solid #3339;
+    background-color: lightblue;
+    padding: 16px;
+    border-radius: 5px
+}
+
+.profile-wrapper > form > input,
+.profile-wrapper > form > button {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px
+}
+
+.issues {
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #0077ff8f;
+    margin: 15px;
+}
+
+.issues > h1 {
+    font-size: 2em;
+    padding: 15px;
+    gap: 5px;
+}
+
+.issues > h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.welcome {
+    padding: 25px;
+    width: 75%;
+    border-radius: 8px;
+    background-color: #5368808f;
+    text-align: center;
+}
+
+.addorpost {
+    font-size: 2em;
+}
+
+.logout {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.logout:hover {
+    background-color: rgba(255, 0, 0, 0.507);
+    cursor: pointer;
+}
+
+.logout:active {
+    transform: translateY(4px);
+}
+
+.sign-button {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.sign-button:hover {
+    background-color: rgba(0, 128, 0, 0.692);
+    cursor: pointer;
+}
+
+.sign-button:active {
+    transform: translateY(4px);
+}
+
+.para-link {
+    cursor: pointer;
+}
+
+.issue-button {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.issue-button:hover {
+    background-color:rgba(0, 128, 0, 0.692);
+}
+
+.issue-button:active {
+    transform: translateY(4px);
+}
